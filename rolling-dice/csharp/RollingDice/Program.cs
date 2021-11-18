@@ -22,10 +22,13 @@ for (int i = 0; i < 10; i++)
 //  Generates a random number between 1 and 6
 //  Constructs a new Die object with the random number as it's value
 Die Roll()
+// die is the type
 {
     int dieValue = new Random().Next(1, 6);
     Die die = new Die(dieValue);
+    // name of a new die is taking the name of dieValue
     return die;
+    // return die is returning that value
 }
 
 // This class is used to define a "die" object (a single "dice")

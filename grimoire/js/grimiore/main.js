@@ -1,1 +1,3 @@
-// Put your code here
+console.log("Do you belive in magic?");
+console.log("--------------------");
+
